@@ -4,7 +4,7 @@ AP2Test - Agent Payments Protocol Testing CLI
 A command-line tool for testing AP2 payment flows with cryptographic mandates.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.2"
 __author__ = "Evan Kirtz"
 
 from .mandates import (

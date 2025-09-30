@@ -4,16 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ap2test"
-version = "0.1.0"
+version = "0.1.2"
 description = "CLI tool for testing Agent Payments Protocol (AP2) implementations"
 readme = "README.md"
 requires-python = ">=3.7"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "kirtzevan@gmail.com"}
+    {name = "Evan Kirtz", email = "kirtzevan@gmail.com"}
 ]
 maintainers = [
-    {name = "Your Name", email = "kirtzevan@gmail.com"}
+    {name = "Evan Kirtz", email = "kirtzevan@gmail.com"}
 ]
 keywords = [
     "ap2",
@@ -52,11 +52,7 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/ap2test"
-Documentation = "https://github.com/yourusername/ap2test#readme"
-Repository = "https://github.com/yourusername/ap2test"
-"Bug Tracker" = "https://github.com/yourusername/ap2test/issues"
-"Official AP2" = "https://github.com/google-agentic-commerce/AP2"
+Homepage = "https://github.com/edoggy777/ap2test"
 "AP2 Documentation" = "https://ap2-protocol.org/"
 
 [project.scripts]

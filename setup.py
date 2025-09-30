@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ap2test",
-    version="0.1.0",
+    version="0.1.2",
     description="CLI tool for testing Agent Payments Protocol (AP2) implementations",
     author="Evan Kirtz",
     author_email="kirtzevan@gmail.com",

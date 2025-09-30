@@ -13,7 +13,7 @@ from .mandates import CartItem, PaymentMethod
 
 
 @click.group()
-@click.version_option(version="0.1.0")
+@click.version_option(version="0.1.2")
 def cli():
     """
     AP2Test - Agent Payments Protocol Testing CLI
