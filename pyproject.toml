@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ap2test"
+version = "0.1.0"
+description = "CLI tool for testing Agent Payments Protocol (AP2) implementations"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "kirtzevan@gmail.com"}
+]
+maintainers = [
+    {name = "Your Name", email = "kirtzevan@gmail.com"}
+]
+keywords = [
+    "ap2",
+    "agent-payments",
+    "payment-protocol",
+    "ai-agents",
+    "testing",
+    "cli"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "click>=8.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build>=0.10.0",
+    "twine>=4.0.0",
+    "pytest>=7.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/ap2test"
+Documentation = "https://github.com/yourusername/ap2test#readme"
+Repository = "https://github.com/yourusername/ap2test"
+"Bug Tracker" = "https://github.com/yourusername/ap2test/issues"
+"Official AP2" = "https://github.com/google-agentic-commerce/AP2"
+"AP2 Documentation" = "https://ap2-protocol.org/"
+
+[project.scripts]
+ap2test = "ap2test.cli:cli"
+
+[tool.setuptools]
+packages = ["ap2test"]
+
+[tool.setuptools.package-data]
+ap2test = ["py.typed"]
