@@ -1,11 +1,11 @@
-# AP2Test - Agent Payments Protocol Testing CLI
+# AP2Test - Google Agent Payments Protocol Testing CLI
 
-A command-line tool for testing AP2 (Agent Payments Protocol) payment flows.
+A command-line tool for testing Google AP2 (Google Agent Payments Protocol) payment flows.
 
 ## Overview
 
-AP2Test helps developers test their AI agent payment implementations by simulating the complete mandate flow:
-- **Intent Mandates** - Define agent authorization constraints
+AP2Test helps developers test their Google AI agent payment implementations by simulating the complete mandate flow:
+- **Intent Mandates** - Define Google agent authorization constraints
 - **Cart Mandates** - Capture specific purchase approvals
 - **Payment Mandates** - Execute cryptographically-signed transactions
 
