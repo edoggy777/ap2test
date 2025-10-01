@@ -1,3 +1,11 @@
+# Support
+
+If you find this project helpful, consider supporting it:
+
+**Bitcoin:** `338dgCgrg6Sm1UdP6dCdL6BrNiU7NQjkA7`
+
+[Donate with Bitcoin](bitcoin:338dgCgrg6Sm1UdP6dCdL6BrNiU7NQjkA7)
+
 # AP2Test - Google Agent Payments Protocol Testing CLI
 
 A command-line tool for testing Google AP2 (Google Agent Payments Protocol) payment flows.
